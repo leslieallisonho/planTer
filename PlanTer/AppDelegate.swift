@@ -17,9 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let vc = ViewController()
+        let tab = PlanterTabbarController.shared
         window = UIWindow()
-        window?.rootViewController = vc
+        window?.rootViewController = tab
         window?.makeKeyAndVisible()
 
         return true
