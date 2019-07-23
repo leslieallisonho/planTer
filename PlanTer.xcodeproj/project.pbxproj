@@ -16,6 +16,7 @@
 		6579C07B22E3DF1600E517F3 /* PlanterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579C07A22E3DF1600E517F3 /* PlanterTests.swift */; };
 		6579C08622E3DF1600E517F3 /* PlanterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579C08522E3DF1600E517F3 /* PlanterUITests.swift */; };
 		6579C0D322E46F3500E517F3 /* PlanterTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */; };
+		7F8B63A622E6919600D3B6F0 /* UIColor + Planter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B63A522E6919600D3B6F0 /* UIColor + Planter.swift */; };
 		9C538AE9376A961E7506B0EE /* Pods_PlanterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491BE552E446D6EC99F1A753 /* Pods_PlanterTests.framework */; };
 		D379275712A0E86C808860BD /* Pods_Planter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1F6678C1EF0DA581D8A497 /* Pods_Planter.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		6579C08522E3DF1600E517F3 /* PlanterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanterUITests.swift; sourceTree = "<group>"; };
 		6579C08722E3DF1600E517F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlanterTabbarController.swift; path = PlanTer/ViewController/PlanterTabbarController.swift; sourceTree = SOURCE_ROOT; };
+		7F8B63A522E6919600D3B6F0 /* UIColor + Planter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Planter.swift"; sourceTree = "<group>"; };
 		ABEF488B6FA21DC840E24388 /* Pods-PlanterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanterTests.debug.xcconfig"; path = "Target Support Files/Pods-PlanterTests/Pods-PlanterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3D8C2A1AFDA0B5AE3EF6964 /* Pods-PlanterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanterUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlanterUITests/Pods-PlanterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC463403751527C5410713AC /* Pods_PlanterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 		6579C06122E3DF1200E517F3 /* Planter */ = {
 			isa = PBXGroup;
 			children = (
+				7F8B63A422E6917C00D3B6F0 /* Extensions */,
 				6579C0D122E46E9A00E517F3 /* ViewController */,
 				6579C06222E3DF1200E517F3 /* AppDelegate.swift */,
 				6579C06422E3DF1200E517F3 /* ViewController.swift */,
@@ -151,6 +154,14 @@
 				6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7F8B63A422E6917C00D3B6F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B63A522E6919600D3B6F0 /* UIColor + Planter.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BFF15C6697A033C207CA9F8D /* Pods */ = {
@@ -434,6 +445,7 @@
 			files = (
 				6579C06B22E3DF1200E517F3 /* Planter.xcdatamodeld in Sources */,
 				6579C06522E3DF1200E517F3 /* ViewController.swift in Sources */,
+				7F8B63A622E6919600D3B6F0 /* UIColor + Planter.swift in Sources */,
 				6579C0D322E46F3500E517F3 /* PlanterTabbarController.swift in Sources */,
 				6579C06322E3DF1200E517F3 /* AppDelegate.swift in Sources */,
 			);
