@@ -17,6 +17,11 @@
 		6579C08622E3DF1600E517F3 /* PlanterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579C08522E3DF1600E517F3 /* PlanterUITests.swift */; };
 		6579C0D322E46F3500E517F3 /* PlanterTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */; };
 		9C538AE9376A961E7506B0EE /* Pods_PlanterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491BE552E446D6EC99F1A753 /* Pods_PlanterTests.framework */; };
+		BC1BFDE022F13CA900B20F34 /* DayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1BFDDF22F13CA900B20F34 /* DayView.xib */; };
+		BC1BFDE222F13CC900B20F34 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BFDE122F13CC900B20F34 /* DayView.swift */; };
+		BC1BFDE722F13E4A00B20F34 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BFDE622F13E4A00B20F34 /* Room.swift */; };
+		BC1BFDE922F13E7700B20F34 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BFDE822F13E7700B20F34 /* Plant.swift */; };
+		BC1BFDEB22F13ED300B20F34 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BFDEA22F13ED300B20F34 /* Day.swift */; };
 		D379275712A0E86C808860BD /* Pods_Planter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1F6678C1EF0DA581D8A497 /* Pods_Planter.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +63,11 @@
 		6579C08722E3DF1600E517F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlanterTabbarController.swift; path = PlanTer/ViewController/PlanterTabbarController.swift; sourceTree = SOURCE_ROOT; };
 		ABEF488B6FA21DC840E24388 /* Pods-PlanterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanterTests.debug.xcconfig"; path = "Target Support Files/Pods-PlanterTests/Pods-PlanterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1BFDDF22F13CA900B20F34 /* DayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DayView.xib; path = PlanTer/View/DayView.xib; sourceTree = SOURCE_ROOT; };
+		BC1BFDE122F13CC900B20F34 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayView.swift; path = PlanTer/View/DayView.swift; sourceTree = SOURCE_ROOT; };
+		BC1BFDE622F13E4A00B20F34 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Room.swift; path = PlanTer/Model/Room.swift; sourceTree = SOURCE_ROOT; };
+		BC1BFDE822F13E7700B20F34 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Plant.swift; path = PlanTer/Model/Plant.swift; sourceTree = SOURCE_ROOT; };
+		BC1BFDEA22F13ED300B20F34 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day.swift; path = PlanTer/Model/Day.swift; sourceTree = SOURCE_ROOT; };
 		C3D8C2A1AFDA0B5AE3EF6964 /* Pods-PlanterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanterUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlanterUITests/Pods-PlanterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC463403751527C5410713AC /* Pods_PlanterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C60F9E23E5E7DB8E9A6455 /* Pods-PlanterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanterTests.release.xcconfig"; path = "Target Support Files/Pods-PlanterTests/Pods-PlanterTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +126,8 @@
 		6579C06122E3DF1200E517F3 /* Planter */ = {
 			isa = PBXGroup;
 			children = (
+				BC1BFDE522F13E2700B20F34 /* Model */,
+				BC1BFDDE22F13C8100B20F34 /* View */,
 				6579C0D122E46E9A00E517F3 /* ViewController */,
 				6579C06222E3DF1200E517F3 /* AppDelegate.swift */,
 				6579C06422E3DF1200E517F3 /* ViewController.swift */,
@@ -151,6 +163,25 @@
 				6579C0D222E46F3500E517F3 /* PlanterTabbarController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC1BFDDE22F13C8100B20F34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BFDDF22F13CA900B20F34 /* DayView.xib */,
+				BC1BFDE122F13CC900B20F34 /* DayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC1BFDE522F13E2700B20F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC1BFDE622F13E4A00B20F34 /* Room.swift */,
+				BC1BFDE822F13E7700B20F34 /* Plant.swift */,
+				BC1BFDEA22F13ED300B20F34 /* Day.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BFF15C6697A033C207CA9F8D /* Pods */ = {
@@ -287,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6579C07022E3DF1600E517F3 /* LaunchScreen.storyboard in Resources */,
+				BC1BFDE022F13CA900B20F34 /* DayView.xib in Resources */,
 				6579C06D22E3DF1600E517F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +465,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6579C06B22E3DF1200E517F3 /* Planter.xcdatamodeld in Sources */,
+				BC1BFDE222F13CC900B20F34 /* DayView.swift in Sources */,
+				BC1BFDEB22F13ED300B20F34 /* Day.swift in Sources */,
+				BC1BFDE722F13E4A00B20F34 /* Room.swift in Sources */,
 				6579C06522E3DF1200E517F3 /* ViewController.swift in Sources */,
+				BC1BFDE922F13E7700B20F34 /* Plant.swift in Sources */,
 				6579C0D322E46F3500E517F3 /* PlanterTabbarController.swift in Sources */,
 				6579C06322E3DF1200E517F3 /* AppDelegate.swift in Sources */,
 			);
